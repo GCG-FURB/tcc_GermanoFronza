@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="client"/>
+	<classpathentry kind="src" path="server"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/FengGUI.jar"/>
+	<classpathentry kind="lib" path="lib/jason.jar"/>
+	<classpathentry kind="lib" path="lib/jgn.jar"/>
+	<classpathentry kind="lib" path="lib/jinput.jar"/>
+	<classpathentry kind="lib" path="lib/jme-audio.jar"/>
+	<classpathentry kind="lib" path="lib/jme-awt.jar"/>
+	<classpathentry kind="lib" path="lib/jme-bui.jar"/>
+	<classpathentry kind="lib" path="lib/jme-collada.jar"/>
+	<classpathentry kind="lib" path="lib/jme-editors.jar"/>
+	<classpathentry kind="lib" path="lib/jme-effects.jar"/>
+	<classpathentry kind="lib" path="lib/jme-font.jar"/>
+	<classpathentry kind="lib" path="lib/jme-gamestates.jar"/>
+	<classpathentry kind="lib" path="lib/jme-model.jar"/>
+	<classpathentry kind="lib" path="lib/jme-physics-all.jar"/>
+	<classpathentry kind="lib" path="lib/jme-scene.jar"/>
+	<classpathentry kind="lib" path="lib/jme-sound.jar"/>
+	<classpathentry kind="lib" path="lib/jme-terrain.jar"/>
+	<classpathentry kind="lib" path="lib/jme.jar"/>
+	<classpathentry kind="lib" path="lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/looks-2.1.4.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl_applet.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl_fmod3.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl_test.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl_util_applet.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl.jar"/>
+	<classpathentry kind="lib" path="lib/md5r2.jar"/>
+	<classpathentry kind="lib" path="lib/odejava-jni.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

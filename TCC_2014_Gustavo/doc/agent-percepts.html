@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>TankCoders Documentation</title>
+		<link type="text/css" href="site.css" rel="stylesheet">
+	</head>
+	<body>
+		<h2 style="margin: 5px">TankCoders Documentation</h2>
+		
+		<div id="breadcrumbs">Last Published: 05/05/2008</div>
+		
+		<div id="menu">
+			<div id="topMenu"><b>Local documentation</b></div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="getting-started.html">Getting Started</a></li>
+				<li><a href="api/index.html">Javadoc</a></li>
+				<li><a href="faq/index.html">FAQ</a></li>
+				<li><a href="agent-percepts.html">Agent Perceptions</a></li>
+				<li><a href="agent-beliefs.html">Agent Beliefs</a></li>
+				<li><a href="agent-actions.html">Agent Actions</a></li>
+			</ul>
+			
+			<div id="logoGPLLicence">
+				<img src="gplv3.png">
+			</div>
+		</div>
+		
+		<div id="bodyColumn">
+			<div id="contentBox">
+				<h3>Agent Perceptions</h3>
+				
+				<p style="text-indent: 18px">All the agents that have defined the class TankAgArch as architecture class will have the following perceptions during the battle:</p>
+				<ul>
+					<li>
+						<b>+onStartBattle</b>
+						<p>Notified when the battle starts.</p>
+					</li>
+					
+					<li>
+						<b>+onScanTank(TankName, IsEnemy, PosX, PosY, PosZ)</b>
+						<p>Notified when scans another tank in radar.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>String TankName</b> - Tank name scanned</li>
+							<li><b>Integer IsEnemy</b> - 0 if friend, 1 if is enemy</li>
+							<li><b>Float PosX</b> - Position X of scanned tank location</li>
+							<li><b>Float PosY</b> - Position Y of scanned tank location</li>
+							<li><b>Float PosZ</b> - Position Z of scanned tank location</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>+onHitTank(TankName, IsEnemy)</b>
+						<p>Notified when hits another tank.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>String TankName</b> - Tank name</li>
+							<li><b>Integer IsEnemy</b> - 0 if friend, 1 if is enemy</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>+onBulletHit(TankName, IsEnemy)</b>
+						<p>Notified when your fired bullet hits another tank.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>String TankName</b> - Tank name affected</li>
+							<li><b>Integer IsEnemy</b> - 0 if friend, 1 if is enemy</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>+onHitByBullet(BulletPower)</b>
+						<p>Notified when your tank has took a shot.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Integer BulletPower</b> - Destruction power of the bullet</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>+onBulletHitBullet</b>
+						<p>Notified when your fired bullet hits another bullet.</p>
+					</li>
+					
+					<li>
+						<b>+onBulletMissed</b>
+						<p>Notified when your fired bullet misses.</p>
+					</li>
+					
+					<li>
+						<b>+onDeath</b>
+						<p>Notified when your tank dies.</p>
+					</li>
+					
+					<li>
+						<b>+onTankDeath(TankName)</b>
+						<p>Notified when another tank dies.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>String TankName</b> - Tank name dead</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>+onTeamWin</b>
+						<p>Notified when your team wins.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="xright">© 2008 Germano Fronza </div>
+		</div>
+	</body>
+</html>

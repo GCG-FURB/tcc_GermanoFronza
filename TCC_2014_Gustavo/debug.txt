@@ -1,0 +1,40 @@
+Ago 15, 2014 7:12:09 PM br.furb.inf.tcc.server.GameServer prepareLogger
+INFORMA합ES: Running in Debug mode
+Ago 15, 2014 7:12:15 PM br.furb.inf.tcc.server.GameServer$3 run
+INFORMA합ES: Waiting FindServer requests...
+Ago 15, 2014 7:13:16 PM br.furb.inf.tcc.server.GameServer$3 run
+INFORMA합ES: Waiting FindServer requests...
+Ago 15, 2014 7:13:54 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: LRM id=-857044756116399104 size=0
+Ago 15, 2014 7:13:54 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: LRM id=-857044756116399104 size=0
+Ago 15, 2014 7:13:54 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: Receipt certifying:0
+Ago 15, 2014 7:13:54 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: Receipt certifying:0
+Ago 15, 2014 7:13:54 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: br.furb.inf.tcc.tankcoders.message.UserLogon@1a18493
+Ago 15, 2014 7:14:01 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: br.furb.inf.tcc.tankcoders.message.UserReady@11bee48
+Ago 15, 2014 7:15:36 PM br.furb.inf.tcc.server.GameServer$3 run
+INFORMA합ES: Waiting FindServer requests...
+Ago 15, 2014 7:15:48 PM br.furb.inf.tcc.server.GameServer$3 run
+INFORMA합ES: Socket closed by user
+Ago 15, 2014 7:15:52 PM br.furb.inf.tcc.server.GameServer$3 run
+INFORMA합ES: Waiting FindServer requests...
+Ago 15, 2014 7:15:55 PM br.furb.inf.tcc.server.GameServer$3 run
+INFORMA합ES: Waiting FindServer requests...
+Ago 15, 2014 7:15:58 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: LRM id=2227426595861455872 size=27
+Ago 15, 2014 7:15:58 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: LRM id=2227426595861455872 size=27
+Ago 15, 2014 7:15:58 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: Receipt certifying:0
+Ago 15, 2014 7:15:58 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: Receipt certifying:0
+Ago 15, 2014 7:15:58 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: br.furb.inf.tcc.tankcoders.message.UserLogon@1858aa4
+Ago 15, 2014 7:16:01 PM br.furb.inf.tcc.server.GameServer$2 messageReceived
+INFORMA합ES: Received message: br.furb.inf.tcc.tankcoders.message.UserReady@b91881
+Ago 15, 2014 7:17:06 PM br.furb.inf.tcc.server.GameServer$3 run
+INFORMA합ES: Socket closed by user

@@ -1,0 +1,530 @@
+Ago 15, 2014 7:13:03 PM br.furb.inf.tcc.tankcoders.TankCoders prepareLogger
+INFORMA합ES: Running in Debug mode
+Ago 15, 2014 7:13:04 PM com.jmex.game.state.GameStateManager create
+INFORMA합ES: Created GameStateManager
+Ago 15, 2014 7:13:04 PM br.furb.inf.tcc.tankcoders.TankCoders createMainMenu
+INFORMA합ES: Creating main menu...
+Ago 15, 2014 7:13:04 PM com.jme.system.lwjgl.LWJGLDisplaySystem <init>
+INFORMA합ES: LWJGL Display System created.
+Ago 15, 2014 7:13:05 PM com.jme.renderer.lwjgl.LWJGLRenderer <init>
+INFORMA합ES: LWJGLRenderer created. W:  754H: 473
+Ago 15, 2014 7:13:06 PM com.jme.renderer.AbstractCamera <init>
+INFORMA합ES: Camera created.
+Ago 15, 2014 7:13:06 PM com.jmex.sound.openAL.SoundSystem <clinit>
+INFORMA합ES: DETECT OPERATING SYSTEM
+Ago 15, 2014 7:13:06 PM com.jmex.sound.openAL.SoundSystem <clinit>
+INFORMA합ES: CREATE OPENAL
+Ago 15, 2014 7:13:06 PM com.jmex.sound.openAL.SoundSystem initializeOpenAL
+INFORMA합ES: OpenAL initalized!
+Ago 15, 2014 7:13:06 PM com.jmex.sound.openAL.SoundSystem <clinit>
+INFORMA합ES: CREATE LISTENER
+Ago 15, 2014 7:13:06 PM com.jme.util.lwjgl.LWJGLTimer <init>
+INFORMA합ES: Timer resolution: 1000 ticks per second
+Ago 15, 2014 7:13:09 PM br.furb.inf.tcc.tankcoders.TankCoders$1 call
+INFORMA합ES: Menu Created;
+Ago 15, 2014 7:13:53 PM br.furb.inf.tcc.util.jgn.JGNRegisterUtil getClasses
+INFORMA합ES: br.furb.inf.tcc.tankcoders.message does not appear to be a valid package, the messages won't be registered
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (Text) attached to this node (TextNode)
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:01 PM com.jmex.physics.PhysicsSpace create
+INFORMA합ES: Using physics implementation 'com.jmex.physics.impl.ode.OdePhysicsSpace$OdeFactory'.
+Ago 15, 2014 7:14:01 PM com.jmex.physics.PhysicsSpace create
+INFORMA합ES: Physics implementation 'com.jmex.physics.impl.joode.JoodePhysicsSpace$JoodeFactory' not present.
+Ago 15, 2014 7:14:01 PM com.jmex.physics.impl.ode.OdePhysicsSpace setUpdateRate
+INFORMA합ES: Changed the number of updates in a second of PhysicsWorld to: 100.0
+Ago 15, 2014 7:14:01 PM com.jmex.physics.impl.ode.OdePhysicsSpace setStepSize
+INFORMA합ES: Setting StepSize of PhysicsWorld to : 0.01
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (north) attached to this node (skybox)
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (south) attached to this node (skybox)
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (east) attached to this node (skybox)
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (west) attached to this node (skybox)
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (up) attached to this node (skybox)
+Ago 15, 2014 7:14:01 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (down) attached to this node (skybox)
+Ago 15, 2014 7:14:04 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (skybox) attached to this node (ceu)
+Ago 15, 2014 7:14:04 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (ceu) attached to this node (RootNode)
+Ago 15, 2014 7:14:04 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:04 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:05 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (terrainPageBlock1) attached to this node (terrainPage)
+Ago 15, 2014 7:14:05 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (terrainPageBlock2) attached to this node (terrainPage)
+Ago 15, 2014 7:14:05 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (terrainPageBlock3) attached to this node (terrainPage)
+Ago 15, 2014 7:14:06 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (terrainPageBlock4) attached to this node (terrainPage)
+Ago 15, 2014 7:14:06 PM com.jmex.terrain.util.ProceduralTextureGenerator createTexture
+DETALHADO: Created procedural texture successfully.
+Ago 15, 2014 7:14:06 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (terrainPage) attached to this node (terrain)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node detachChildAt
+INFORMA합ES: Child removed.
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (terrainPage) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (terrain)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarOne) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarTwo) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (top) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (cloth) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (terrain)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarOne) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarTwo) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (top) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (cloth) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (terrain)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarOne) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarTwo) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (top) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (cloth) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (terrain)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarOne) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (pillarTwo) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (top) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (cloth) attached to this node (null)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (terrain)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (terrain) attached to this node (RootNode)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (hudQuad) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (time) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tankName) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (message) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (textWaitPlayers) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (speed) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (primaryGunBullets) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (health) attached to this node (hud)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (hud) attached to this node (RootNode)
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:07 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: Cube_bulletPos: Batch 0 old: 24 new: 24
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (Cube_bulletPos) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Ma: Batch 0 old: 1005 new: 1005
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Ma) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Mitra: Batch 0 old: 108 new: 108
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Mitra) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Manch: Batch 0 old: 78 new: 78
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Manch) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_M_tal: Batch 0 old: 408 new: 408
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_M_tal) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Parti: Batch 0 old: 132 new: 132
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Parti) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Pompe: Batch 0 old: 336 new: 336
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Pompe) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Outil: Batch 0 old: 771 new: 771
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Outil) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_V_hic: Batch 0 old: 39959 new: 39959
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_V_hic) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Plast: Batch 0 old: 87 new: 87
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Plast) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Marqu: Batch 0 old: 980 new: 980
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Marqu) attached to this node (obj file)
+Ago 15, 2014 7:14:08 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:09 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (obj file) attached to this node (tankChassi)
+Ago 15, 2014 7:14:09 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:09 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:09 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:10 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tankChassi) attached to this node (boss)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Cheni: Batch 0 old: 17778 new: 17778
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Cheni) attached to this node (obj file)
+Ago 15, 2014 7:14:11 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Ch.001: Batch 0 old: 7834 new: 7834
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Ch.001) attached to this node (obj file)
+Ago 15, 2014 7:14:11 PM com.jme.util.geom.GeometryTool minimizeVerts
+INFORMA합ES: batch: jagd_panther02_Ch: Batch 0 old: 18498 new: 18498
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (jagd_panther02_Ch) attached to this node (obj file)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (obj file) attached to this node (tankChassi)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Line <init>
+INFORMA합ES: Line created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensao) attached to this node (boss)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensao) attached to this node (boss)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (Some2DText) attached to this node (tankChassi Text Node)
+Ago 15, 2014 7:14:11 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tankChassi Text Node) attached to this node (boss)
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (boss) attached to this node (terrain)
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:12 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (obj file) attached to this node (tankChassi)
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:12 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (null) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tankChassi) attached to this node (slave)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (obj file) attached to this node (tankChassi)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensao) attached to this node (slave)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (baseBox) attached to this node (suspensionBase)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensionBase) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jmex.physics.impl.ode.OdePhysicsSpace addNode
+INFORMA합ES: PhysicsNode (null) has been created
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tyre) attached to this node (wheel)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheel) attached to this node (wheelNode)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (wheelNode) attached to this node (suspensao)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (suspensao) attached to this node (slave)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (Some2DText) attached to this node (tankChassi Text Node)
+Ago 15, 2014 7:14:13 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (tankChassi Text Node) attached to this node (slave)
+Ago 15, 2014 7:14:14 PM com.jme.scene.Node attachChild
+INFORMA합ES: Child (slave) attached to this node (terrain)
+Ago 15, 2014 7:14:14 PM com.jmex.physics.impl.ode.OdePhysicsSpace setDirectionalGravity
+INFORMA합ES: Setting Gravity of PhysicsWorld to: (0.0, -9.81, 0.0)
+Ago 15, 2014 7:14:14 PM com.jme.scene.Node <init>
+INFORMA합ES: Node created.
+Ago 15, 2014 7:14:14 PM com.jme.scene.Node detachChildAt
+INFORMA합ES: Child removed.
+Ago 15, 2014 7:15:07 PM br.furb.inf.tcc.tankcoders.TankCoders changeToMenuState
+INFORMA합ES: Creating main menu...

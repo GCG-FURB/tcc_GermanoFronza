@@ -1,0 +1,128 @@
+<html>
+	<head>
+		<title>TankCoders Documentation</title>
+		<link type="text/css" href="site.css" rel="stylesheet">
+	</head>
+	<body>
+		<h2 style="margin: 5px">TankCoders Documentation</h2>
+		
+		<div id="breadcrumbs">Last Published: 05/05/2008</div>
+		
+		<div id="menu">
+			<div id="topMenu"><b>Local documentation</b></div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="getting-started.html">Getting Started</a></li>
+				<li><a href="api/index.html">Javadoc</a></li>
+				<li><a href="faq/index.html">FAQ</a></li>
+				<li><a href="agent-percepts.html">Agent Perceptions</a></li>
+				<li><a href="agent-beliefs.html">Agent Beliefs</a></li>
+				<li><a href="agent-actions.html">Agent Actions</a></li>
+			</ul>
+			
+			<div id="logoGPLLicence">
+				<img src="gplv3.png">
+			</div>
+		</div>
+		
+		<div id="bodyColumn">
+			<div id="contentBox">
+				<h3>Agent Actions</h3>
+				
+				<p style="text-indent: 18px">All the agents that have defined the class TankAgArch as architecture class will have the actions available:</p>
+				<ul>
+					<li>
+						<b>ahread(Qty)</b>
+						<p>Move tank ahead.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Integer Qty</b> - Qty meters to move ahead</li>
+						</ol>
+					</li>	
+					
+					<br/>
+					<li>
+						<b>back(Qty)</b>
+						<p>Move tank back.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Integer Qty</b> - Qty meters to move back</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>dropAccelerator</b>
+						<p>Drop the acceleration.</p>
+					</li>	
+					
+					<li>
+						<b>turnRight(Angle, Direction)</b>
+						<p>Move tank to right.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Integer Angle</b> - Angle in degrees to turn right.</li>
+							<li><b>Integer Direction</b> - 1 to turn right moving ahead, -1 to turn right moving back.</li>
+						</ol>
+					</li>	
+					
+					<br/>
+					<li>
+						<b>turnLeft(Angle, Direction)</b>
+						<p>Move tank to left.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Integer Angle</b> - Angle in degrees to turn left.</li>
+							<li><b>Integer Direction</b> - 1 to turn left moving ahead, -1 to turn left moving back.</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>stopTurning</b>
+						<p>Stop turning the tank.</p>
+					</li>
+					
+					<li>
+						<b>turnMainGunRight(Angle)</b>
+						<p>Turn main gun to right.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Integer Angle</b> - Angle in degrees to turn right.</li>
+						</ol>
+					</li>	
+					
+					<br/>
+					<li>
+						<b>turnMainGunLeft(Angle)</b>
+						<p>Turn main gun to left.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Integer Angle</b> - Angle in degrees to turn left.</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>stopMainGunTurning</b>
+						<p>Stop turning main gun.</p>
+					</li>
+					
+					<li>
+						<b>fireMainGun</b>
+						<p>Fire main gun bullet.</p>
+					</li>
+					
+					<li>
+						<b>fireMachineGun</b>
+						<p>Fire machine gun bullet.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="xright">© 2008 Germano Fronza </div>
+		</div>
+	</body>
+</html>

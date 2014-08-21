@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." default="runClient" name="TankCoders">
+	
+	<property name="fengGuiJar"      value="lib/FengGUI.jar" />
+	<property name="jInputJar"      value="lib/jinput.jar" />
+	<property name="jmeJar"      value="lib/jme.jar" />
+	<property name="jmeAudioJar"      value="lib/jme-audio.jar" />
+	<property name="jmeAwtJar"      value="lib/jme-awt.jar" />
+	<property name="jmeColladaJar"      value="lib/jme-collada.jar" />
+	<property name="jmeEditorsJar"      value="lib/jme-editors.jar" />
+	<property name="jmeEffectsJar"      value="lib/jme-effects.jar" />
+	<property name="jmeFontJar"      value="lib/jme-font.jar" />
+	<property name="jmeGameStatesJar"      value="lib/jme-gamestates.jar" />
+	<property name="jmeModelJar"      value="lib/jme-model.jar" />
+	<property name="jmeSceneJar"      value="lib/jme-scene.jar" />
+	<property name="jmeTerrainJar"      value="lib/jme-terrain.jar" />
+	<property name="joggJar"      value="lib/jogg-0.0.7.jar" />
+	<property name="jorbisJar"      value="lib/jorbis-0.0.15.jar" />
+	<property name="jUnitJar"      value="lib/junit-4.1.jar" />
+	<property name="lwjglUtilJar"      value="lib/lwjgl_util_applet.jar" />
+	<property name="lwjglJar"      value="lib/lwjgl.jar" />
+	<property name="odeJavaJniJar"      value="lib/odejava-jni.jar" />
+	<property name="jmeBuiJar"      value="lib/jme-bui.jar" />
+	<property name="jmePhysicsJar"      value="lib/jme-physics-all.jar" />
+	<property name="jmeSoundJar"      value="lib/jme-sound.jar" />
+	<property name="jmeAppletJar"      value="lib/lwjgl_applet.jar" />
+	<property name="lwjglMod3Jar"      value="lib/lwjgl_fmod3.jar" />
+	<property name="lwjglTestJar"      value="lib/lwjgl_test.jar" />
+	<property name="lwjglUtilJar"      value="lib/lwjgl_util.jar" />
+	<property name="md5r2Jar"      value="lib/md5r2.jar" />
+	<property name="jgnJar"      value="lib/jgn.jar" />
+	<property name="looksJar"      value="lib/looks-2.1.4.jar" />
+	<property name="jasonJar"      value="lib/jason.jar" />
+
+	<property name="version" value="0" />
+	<property name="release" value="1" />
+	<property name="tankCodersClientJar"      value="lib/tank-coders-${version}.${release}.jar" />
+	<property name="tankCodersDistZip"      value="dist/tank-coders-${version}.${release}.zip" />
+	<property name="tankCodersDistBinZip"      value="dist/tank-coders-bin-${version}.${release}.zip" />
+	
+	<property name="build.dir" value="${basedir}/bin" />
+	<property name="dist.dir" value="${basedir}/dist"/>
+
+	<path id="project.classpath">
+		<pathelement location="${fengGuiJar}" />
+		<pathelement location="${jInputJar}" />
+		<pathelement location="${jmeJar}" />
+		<pathelement location="${jmeAudioJar}" />
+		<pathelement location="${jmeAwtJar}" />
+		<pathelement location="${jmeColladaJar}" />
+		<pathelement location="${jmeEditorsJar}" />
+		<pathelement location="${jmeEffectsJar}" />
+		<pathelement location="${jmeFontJar}" />
+		<pathelement location="${jmeGameStatesJar}" />
+		<pathelement location="${jmeModelJar}" />
+		<pathelement location="${jmeSceneJar}" />
+		<pathelement location="${jmeTerrainJar}" />
+		<pathelement location="${joggJar}" />
+		<pathelement location="${jorbisJar}" />
+		<pathelement location="${jUnitJar}" />
+		<pathelement location="${lwjglUtilJar}" />
+		<pathelement location="${lwjglJar}" />
+		<pathelement location="${odeJavaJniJar}" />
+		<pathelement location="${jmeBuiJar}" />
+		<pathelement location="${jmePhysicsJar}" />
+		<pathelement location="${jmeSoundJar}" />
+		<pathelement location="${jmeAppletJar}" />
+		<pathelement location="${lwjglMod3Jar}" />
+		<pathelement location="${lwjglTestJar}" />
+		<pathelement location="${lwjglUtilJar}" />
+		<pathelement location="${md5r2Jar}" />
+		<pathelement location="${jgnJar}" />
+		<pathelement location="${looksJar}" />
+		<pathelement location="${jasonJar}" />
+		<pathelement path="${java.class.path}"/>
+		<pathelement location="./bin"/>
+	</path>
+	
+	<target name="compile">
+		<javac srcdir="src" destdir="${build.dir}" debug="true" deprecation="true" optimize="true" nowarn="true" source="1.6" target="1.6">
+			<classpath refid="project.classpath" />
+		</javac>
+		<copydir dest="${build.dir}" src="${basedir}/rsrc"></copydir>
+	</target>
+	
+	<target name="jar">
+		<jar jarfile="${tankCodersClientJar}" manifest="${basedir}/MANIFEST.MF">
+			<fileset dir="${build.dir}">
+				<include name="**/*.class" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="runClient">
+		<java dir="bin" classname="br.furb.inf.tcc.tankcoders.TankCoders" fork="yes">
+			<arg value="-debug"/>
+			<jvmarg value="-Djava.library.path=../lib/native"/>
+			<classpath refid="project.classpath" />
+		</java>
+	</target>
+	
+	<target name="runServer">
+		<java dir="bin" classname="br.furb.inf.tcc.gui.ServerGUI" fork="yes">
+			<classpath>
+	           <pathelement location="lib/looks-2.1.4.jar"/>
+				<pathelement location="lib/jgn.jar"/>
+	           	<pathelement location="lib/jme.jar"/>
+				<pathelement location="./bin"/>
+	            <pathelement path="${java.class.path}"/>
+	         </classpath>
+		</java>
+	</target>
+	
+	<target name="javadoc">
+        <javadoc access="public" 
+        		 author="true" 
+        		 destdir="doc/api" 
+        		 doctitle="TankCoders API documentation" 
+        		 nodeprecated="false" 
+        		 nodeprecatedlist="false" 
+        		 noindex="false" 
+        		 nonavbar="false" 
+        		 notree="false" 
+        		 packagenames="*" 
+        		 source="1.6" 
+        		 sourcepath="src/server;rsrc;src/client" 
+        		 splitindex="true" 
+        		 use="true" 
+        		 version="true">
+        	<classpath refid="project.classpath"/>
+        </javadoc>
+    </target>
+	
+	<target name="zip-all">
+		<delete dir="${dist.dir}"/>
+		<mkdir dir="${dist.dir}"/>
+		
+		<zip destfile="${tankCodersDistZip}">
+		 	<fileset dir="${basedir}">
+		 		<exclude name=".settings/*"/>
+		 		<exclude name=".settings"/>
+		 		<exclude name=".project"/>
+		 		<exclude name=".classpath"/>
+		 		<exclude name="dist"/>
+		 		<exclude name="bin/**/*"/>
+		 	</fileset>
+		 </zip>
+	</target>
+	
+	<target name="zip-bin">
+		<delete dir="${dist.dir}"/>
+		<mkdir dir="${dist.dir}"/>
+		
+		<zip destfile="${tankCodersDistBinZip}">
+		 	<fileset dir="${basedir}">
+		 		<exclude name=".settings/*"/>
+		 		<exclude name=".settings"/>
+		 		<exclude name=".project"/>
+		 		<exclude name=".classpath"/>
+		 		<exclude name="dist"/>
+		 		<exclude name="src/**/*"/>
+		 		<exclude name="rsrc/**/*"/>
+		 		<exclude name="src"/>
+		 		<exclude name="rsrc"/>
+		 		<exclude name="bin/*.log"/>
+		 		<exclude name="bin/*.txt*"/>
+		 	</fileset>
+		 </zip>
+	</target>
+</project>

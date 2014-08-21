@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>TankCoders Documentation</title>
+		<link type="text/css" href="site.css" rel="stylesheet">	
+	</head>
+	<body>
+		<h2 style="margin: 5px">TankCoders Documentation</h2>
+		
+		<div id="breadcrumbs">Last Published: 05/05/2008</div>
+		
+		<div id="menu">
+			<div id="topMenu"><b>Local documentation</b></div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="getting-started.html">Getting Started</a></li>
+				<li><a href="api/index.html">Javadoc</a></li>
+				<li><a href="faq/index.html">FAQ</a></li>
+				<li><a href="agent-percepts.html">Agent Perceptions</a></li>
+				<li><a href="agent-beliefs.html">Agent Beliefs</a></li>
+				<li><a href="agent-actions.html">Agent Actions</a></li>
+			</ul>
+			
+			<div id="logoGPLLicence">
+				<img src="gplv3.png">
+			</div>
+		</div>
+		
+		<div id="bodyColumn">
+			<div id="contentBox">
+				<h3>Getting Started with TankCoders</h3>
+				
+				<p>This section aims to help you install and run TankCoders, as well as developing a simple multi-agent system using Jason to build a tanks team.</p>
+				<h4>Download and installation</h4>
+				<ol>
+					<li>Java JDK >= 6.0 is required (<a href="http://java.sun.com">http://java.sun.com</a>);</li>
+					<li>Apache Ant is required (<a href="http://ant.apache.org/">http://ant.apache.org/</a>);</li>
+					<li>Download TankCoders from <a href="http://www.assembla.com/spaces/tankcoders">http://www.assembla.com/spaces/tankcoders</a></li>
+					<li>Create a folder for your TankCoders installation and decompress the distribution file in it;</li>
+					<li>Done! It's that simple!</li>
+				</ol>
+				
+				<h4>Running</h4>
+				<p>First of all you need to execute the Game Server:</p>
+				<ol>
+					<li>Open the comand line console and move to the TankCoders installation diretory;</li>
+					<li>Run the command line: $><b>ant runServer</b></li>
+					<li>Configure arguments of the game and then <b>Start</b>.</li>
+				</ol>
+				
+				<p>For client application, there are two ways to run:</p>
+				<ul>
+					<li>
+						<b>Avatar Player</b>: Run this way when you want to control a tank manually via keyboard. Steps:
+						<ol>
+							<li>Open the comand line console and move to the TankCoders installation diretory;</li>
+							<li>Run the command line: $><b>ant runClient</b></li>
+						</ol>
+					</li>
+					<br/>
+					<li>
+						<b>MAS Player</b>: Run this way when you want your agents to control the tanks in the battle. Steps:
+						<ol>
+							<li>If not created yet, create a new Jason Project (using jEdit-based version or <a href="http://jasonplugin.wikidot.com/">eclipsePlugin</a>);</li>
+							<li>Enter the TankCoders installation directory and copy the folders <b>rsrc</b> and <b>lib</b> to the root directory of the created Jason project;</li>
+							<li>In mas2j project file, define the environment class: <b>br.furb.inf.tcc.tankcoders.jason.TankCodersEnvironment</b>;</li>
+							<li>For each agent, define the agentArchClass: <b>br.furb.inf.tcc.tankcoders.jason.TankAgArch</b>;</li>
+							<li>Execute the Jason project. An error will be thown, but don't worry! follow the steps normally;</li>
+							<li>Inside the directory bin, Jason generates the ant file <b>build.xml</b>. Make a copy of this file and rename it to <b>c-build.xml</b>;</li>
+							<li>
+								Open the file c-build.xml and find the ant task <b>compile</b>. Inside this task exists an tag called <b>javac</b>, after this, include this source:
+								<p>
+									<b>
+										&lt;copy todir="${build.dir}"/&gt;<br>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;fileset dir="${basedir}/rsrc"/&gt;<br>
+										&lt;/copy todir="${build.dir}"&gt;
+									</b>
+								</p>
+							</li>
+							
+							<li>
+								Continue in c-build.xml file and find the ant task <b>run</b>. Inside this task exists an tag called <b>java</b>, within this, include the tag:
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;jvmarg line='-Djava.library.path=&quot;lib/native&quot;'/&gt;</b></p>
+								after the already existent tag:
+									<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&lt;jvmarg line=&quot;-Xmx750M&quot;/&gt</b></p>
+							</li>
+							<li>Now you can run the Jason project normally.</li>
+						</ol>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="xright">© 2008 Germano Fronza </div>
+		</div>
+	</body>
+</html>

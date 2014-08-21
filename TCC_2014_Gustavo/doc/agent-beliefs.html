@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>TankCoders Documentation</title>
+		<link type="text/css" href="site.css" rel="stylesheet">
+	</head>
+	<body>
+		<h2 style="margin: 5px">TankCoders Documentation</h2>
+		
+		<div id="breadcrumbs">Last Published: 05/05/2008</div>
+		
+		<div id="menu">
+			<div id="topMenu"><b>Local documentation</b></div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="getting-started.html">Getting Started</a></li>
+				<li><a href="api/index.html">Javadoc</a></li>
+				<li><a href="faq/index.html">FAQ</a></li>
+				<li><a href="agent-percepts.html">Agent Perceptions</a></li>
+				<li><a href="agent-beliefs.html">Agent Beliefs</a></li>
+				<li><a href="agent-actions.html">Agent Actions</a></li>
+			</ul>
+			
+			<div id="logoGPLLicence">
+				<img src="gplv3.png">
+			</div>
+		</div>
+		
+		<div id="bodyColumn">
+			<div id="contentBox">
+				<h3>Agent Beliefs</h3>
+				
+				<p style="text-indent: 18px">All the agents that have defined the class TankAgArch as architecture class will have the following beliefs during the battle:</p>
+				<ul>
+					<li>
+						<b>info(PosX, PosY, PosZ, Health, MainGunBullets, ChassiHeading, MainGunHeading)</b>
+						<p>This belief is added each N milliseconds, where N is configured in the <a href="game-config-file.html">Game Configuration File</a>. The default value is 500 ms.</p>
+						<p><b>Arguments:</b></p>
+						<ol>
+							<li><b>Float PosX</b> - Position X of the tank</li>
+							<li><b>Float PosY</b> - Position Y of the tank</li>
+							<li><b>Float PosZ</b> - Position Z of the tank</li>
+							<li><b>Integer Health</b> - Current health of the tank</li>
+							<li><b>Integer MainGunBullets</b> - Current main gun of the tank</li>
+							<li><b>Float ChassiHeading</b> - Current chassi heading in degrees</li>
+							<li><b>Float MainGunHeading</b> - Current main gun heading in degrees</li>
+						</ol>
+					</li>
+					
+					<br/>
+					<li>
+						<b>actionFinished</b>
+						<p>This belief is added when an action finish. Example: execute the action ahead(40), when the tank reaches this 40 meters then this belief is added.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="xright">© 2008 Germano Fronza </div>
+		</div>
+	</body>
+</html>

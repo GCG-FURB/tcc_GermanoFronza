@@ -1,0 +1,121 @@
+# Blender3D MTL File: jadgpanther.blend
+# Material Count: 11
+newmtl Material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_body_tmp.png
+
+
+newmtl Pompe01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.320000 0.320000 0.320000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_wheel.png
+
+
+newmtl Marquages_noir01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.018824 0.172549 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl V_hicule01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.018824 0.172549 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_body_tmp.png
+
+
+newmtl M_tal01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.320000 0.320000 0.240000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_rubber_dark_gray.png
+
+
+newmtl Outils01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.320000 0.320000 0.320000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_wheel.png
+
+
+newmtl Manches01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.240000 0.240000 0.160000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_wood.png
+
+
+newmtl Marquages_blanc01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_white.png
+
+
+newmtl Mitrailleuse01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.160000 0.160000 0.160000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_wheel.png
+
+
+newmtl Plastiques_noir01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.160000 0.160000 0.160000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd panther_rubber_dark_gray.png
+
+
+newmtl Parties_noir01
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.080000 0.080000 0.080000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
