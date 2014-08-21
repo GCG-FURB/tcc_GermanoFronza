@@ -1,0 +1,692 @@
+From: <Salvo pelo Microsoft Internet Explorer 7>
+Subject: germanofronza - Simulador TankCoders
+Date: Fri, 18 Jul 2008 17:00:42 -0300
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://germanofronza.googlepages.com/tankcodersproject
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.3790.2992
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>germanofronza - Simulador TankCoders</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DUTF-8">
+<STYLE type=3Dtext/css>#g_title P {
+	MARGIN: 0px
+}
+#g_footer P {
+	MARGIN: 0px
+}
+#g_description P {
+	MARGIN: 0px
+}
+* HTML .wrapper {
+	HEIGHT: 0.1%
+}
+
+@media Tty   =20
+{
+I {
+	content: "";/*" "*/}} * html #container { height: 1%; } /*"
+}
+    }
+.editable {
+	BORDER-RIGHT: blue 1px dashed; BORDER-TOP: blue 1px dashed; =
+BORDER-LEFT: blue 1px dashed; BORDER-BOTTOM: blue 1px dashed
+}
+#footer {
+	CLEAR: both
+}
+#extraDiv1 {
+	DISPLAY: none
+}
+#extraDiv2 {
+	DISPLAY: none
+}
+#extraDiv3 {
+	DISPLAY: none
+}
+#extraDiv4 {
+	DISPLAY: none
+}
+#extraDiv5 {
+	DISPLAY: none
+}
+#extraDiv6 {
+	DISPLAY: none
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+:link IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+:visited IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+BODY {
+	TEXT-ALIGN: center
+}
+#container {
+	MARGIN: 0px auto; WIDTH: 718px; TEXT-ALIGN: left
+}
+#main-content {
+	FLOAT: right; WIDTH: 470px
+}
+#sidebar {
+	FLOAT: right; WIDTH: 230px
+}
+#footer {
+	CLEAR: both
+}
+H1 {
+	FONT-SIZE: 1em
+}
+H2 {
+	FONT-SIZE: 1em
+}
+H3 {
+	FONT-SIZE: 1em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+H5 {
+	FONT-SIZE: 1em
+}
+H6 {
+	FONT-SIZE: 1em
+}
+PRE {
+	FONT-SIZE: 1em
+}
+CODE {
+	FONT-SIZE: 1em
+}
+P {
+	FONT-SIZE: 1em
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+HTML {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+:link IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+:visited IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+ADDRESS {
+	FONT-STYLE: normal
+}
+BODY {
+	FONT: 76% Verdana, sans-serif
+}
+H1 {
+	FONT-FAMILY: "Trebuchet MS", Trebuchet, sans-serif
+}
+H2 {
+	FONT-FAMILY: "Trebuchet MS", Trebuchet, sans-serif
+}
+H3 {
+	FONT-FAMILY: "Trebuchet MS", Trebuchet, sans-serif
+}
+H4 {
+	FONT-FAMILY: "Trebuchet MS", Trebuchet, sans-serif
+}
+H5 {
+	FONT-FAMILY: "Trebuchet MS", Trebuchet, sans-serif
+}
+H6 {
+	FONT-FAMILY: "Trebuchet MS", Trebuchet, sans-serif
+}
+P.description {
+	FONT-FAMILY: "Trebuchet MS", Trebuchet, sans-serif
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 3em; LETTER-SPACING: 2px
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 2em
+}
+H3 {
+	FONT-SIZE: 1.5em
+}
+H4 {
+	FONT-SIZE: 1.2em; LETTER-SPACING: 0.2em
+}
+H5 {
+	FONT-SIZE: 1.2em
+}
+H6 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1em
+}
+P {
+	LINE-HEIGHT: 1.8em
+}
+TD {
+	LINE-HEIGHT: 1.8em
+}
+CODE {
+	FONT-SIZE: 1.25em
+}
+KBD {
+	FONT-SIZE: 1.25em
+}
+#footer {
+	HEIGHT: 1%
+}
+
+@media Tty   =20
+{
+I {
+	content: "";/*" "*/}} td, * html th { font-size: 0.8em; } h1 { height: =
+1%; } /*"
+}
+    }
+A:link {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+BODY {
+	FONT: 80% "Lucida Grande", "Lucida Sans Unicode", sans-serif
+}
+BLOCKQUOTE {
+	MARGIN: 1em; FONT-STYLE: italic
+}
+CAPTION {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 1em; PADDING-BOTTOM: =
+4px; PADDING-TOP: 4px; TEXT-ALIGN: left
+}
+DD {
+	MARGIN: 0px 0px 1em 1em
+}
+HR {
+	BORDER-LEFT-COLOR: #222; BACKGROUND: #222; BORDER-BOTTOM-COLOR: #222; =
+COLOR: #222; BORDER-TOP-COLOR: #222; BORDER-RIGHT-COLOR: #222
+}
+TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; =
+VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}
+TH {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000 1px =
+solid; PADDING-LEFT: 5px; FONT-SIZE: 1em; PADDING-BOTTOM: 2px; =
+PADDING-TOP: 2px; BORDER-BOTTOM: #000 1px solid; TEXT-ALIGN: left
+}
+TD P {
+	MARGIN-TOP: 0px
+}
+UL LI {
+	MARGIN-BOTTOM: 0.8em
+}
+OL LI {
+	MARGIN-BOTTOM: 0.8em; MARGIN-LEFT: 2em; LIST-STYLE-TYPE: lower-alpha
+}
+#container {
+=09
+}
+#header {
+	MARGIN: 0px 0px 10px; BORDER-BOTTOM: #000 1px solid; POSITION: relative
+}
+P.description {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; FONT-SIZE: 1em; =
+PADDING-BOTTOM: 0.5em; MARGIN: 0px; PADDING-TOP: 0.5em; BORDER-BOTTOM: =
+#000 1px solid
+}
+#g_description {
+	MARGIN: 1em 0px 1em 15px
+}
+P {
+	MARGIN: 1em 0px; LINE-HEIGHT: 1.5
+}
+TD {
+	LINE-HEIGHT: 1.5
+}
+TD P {
+	LINE-HEIGHT: 1.5
+}
+H1 {
+	FONT-FAMILY: "Trebuchet MS", arial, sans-serif
+}
+H2 {
+	FONT-FAMILY: "Trebuchet MS", arial, sans-serif
+}
+H3 {
+	FONT-FAMILY: "Trebuchet MS", arial, sans-serif
+}
+H4 {
+	FONT-FAMILY: "Trebuchet MS", arial, sans-serif
+}
+H5 {
+	FONT-FAMILY: "Trebuchet MS", arial, sans-serif
+}
+H6 {
+	FONT-FAMILY: "Trebuchet MS", arial, sans-serif
+}
+H1 {
+	PADDING-RIGHT: 20px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 15px; =
+FONT-WEIGHT: bold; FONT-SIZE: 2em; PADDING-BOTTOM: 10px; MARGIN: 0px; =
+LINE-HEIGHT: 1.5em; PADDING-TOP: 30px; BORDER-BOTTOM: #000 1px solid; =
+TEXT-ALIGN: left
+}
+H2 {
+	FONT-SIZE: 1.5em; BACKGROUND: =
+url(/-/include/style/chemise/slate/h2.gif) no-repeat left bottom; =
+MARGIN: 0px 0px 1em; COLOR: #000
+}
+H3 {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 0.5em; PADDING-LEFT: 10px; FONT-SIZE: =
+1.2em; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+H4 {
+	MARGIN-TOP: 0.6em; FONT-SIZE: 0.9em; MARGIN-LEFT: 0.2em
+}
+H5 {
+	PADDING-LEFT: 10px; FONT-SIZE: 1em
+}
+H6 {
+	FONT-SIZE: 0.9em
+}
+A:link {
+	COLOR: #f6952e
+}
+A:hover {
+	BACKGROUND-COLOR: #dbd4a6
+}
+#sidebar {
+	MARGIN-BOTTOM: 2em
+}
+#sidebar-alternate {
+	MARGIN-BOTTOM: 2em
+}
+#sidebar H3 {
+	BORDER-TOP: #000 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 1.3em; =
+MARGIN-BOTTOM: 0.5em
+}
+#sidebar-alternate H3 {
+	BORDER-TOP: #000 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 1.3em; =
+MARGIN-BOTTOM: 0.5em
+}
+#sidebar H4 {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar H5 {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar H6 {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar-alternate H4 {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar-alternate H5 {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar-alternate H6 {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar P {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar-alternate P {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 20px
+}
+#sidebar LI {
+	MARGIN-BOTTOM: 0.8em
+}
+#sidebar-alternate LI {
+	MARGIN-BOTTOM: 0.8em
+}
+#sidebar .links {
+	MARGIN-BOTTOM: 2em
+}
+#adsense {
+	TEXT-ALIGN: center
+}
+.editable {
+	BORDER-RIGHT: #666 1px dashed; BORDER-TOP: #666 1px dashed; =
+BORDER-LEFT: #666 1px dashed; BORDER-BOTTOM: #666 1px dashed
+}
+#twocolumn-liquid-left #sidebar {
+	FLOAT: left
+}
+#twocolumn-liquid-right #sidebar {
+	FLOAT: right
+}
+#threecolumn #sidebar-alternate {
+	FLOAT: right
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 15px; BORDER-TOP: #000 1px solid; =
+PADDING-LEFT: 15px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; =
+BORDER-BOTTOM: #000 1px solid
+}
+#footer HR {
+	DISPLAY: none
+}
+#onecolumn #main-content .wrapper {
+	MARGIN: 20px
+}
+#twocolumn-left #main-content .wrapper {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+#twocolumn-right #main-content .wrapper {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+#threecolumn #main-content .wrapper {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px
+}
+#threecolumn #sidebar H3 {
+	MARGIN-BOTTOM: 0px
+}
+#threecolumn #sidebar-alternate H3 {
+	MARGIN-BOTTOM: 0px
+}
+#twocolumn-liquid-left #main-content .wrapper {
+	MARGIN: 0px 20px
+}
+#twocolumn-liquid-right #main-content .wrapper {
+	MARGIN: 0px 20px
+}
+A:link {
+	COLOR: #fff
+}
+A:visited {
+	COLOR: #fff
+}
+A:hover {
+	BACKGROUND-COLOR: #506666
+}
+BODY {
+	BACKGROUND: url(/-/includes/style/chemise/slate/body-bg.gif) #151515 =
+repeat-x; COLOR: #fff
+}
+CAPTION {
+	BACKGROUND: url(/-/includes/style/chemise/slate/h3.gif) #222729; COLOR: =
+#fff
+}
+CODE {
+	COLOR: #99c4d7
+}
+KBD {
+	COLOR: #99c4d7
+}
+DT {
+	COLOR: #99c4d7
+}
+TH {
+	BORDER-LEFT-COLOR: #758a93; BACKGROUND: =
+url(/-/includes/style/chemise/slate/th.gif) #526d78; =
+BORDER-BOTTOM-COLOR: #758a93; COLOR: #fff; BORDER-TOP-COLOR: #758a93; =
+BORDER-RIGHT-COLOR: #758a93
+}
+UL LI {
+	LIST-STYLE-IMAGE: url(/-/includes/style/chemise/slate/h5.gif)
+}
+#container {
+	BACKGROUND: url(/-/includes/style/chemise/slate/container-bg.gif) =
+repeat-x
+}
+#header {
+	BACKGROUND: #000; BORDER-BOTTOM-COLOR: #18252a
+}
+P.description {
+	BACKGROUND: url(/-/includes/style/chemise/slate/description.gif) =
+#151515 repeat-x 0px 0px; BORDER-BOTTOM-COLOR: #000; COLOR: #99c4d7
+}
+H1 {
+	BACKGROUND: url(/-/includes/style/chemise/slate/h1.gif) #7b95a1 =
+repeat-x left bottom; BORDER-BOTTOM-COLOR: #7597a5; COLOR: #fff; =
+BORDER-TOP-COLOR: #91a7af
+}
+H2 {
+	BACKGROUND: url(/-/includes/style/chemise/slate/h2.gif) no-repeat left =
+bottom; COLOR: #8298a1
+}
+H3 {
+	BACKGROUND: url(/-/includes/style/chemise/slate/h3.gif) #222729 =
+repeat-x; COLOR: #fff
+}
+H4 {
+	COLOR: #74909d; BORDER-BOTTOM: #3e4d53 1px dotted
+}
+H5 {
+	BACKGROUND: url(/-/includes/style/chemise/slate/h5.gif) no-repeat left =
+center; COLOR: #435f6b
+}
+#sidebar {
+	BACKGROUND: url(/-/includes/style/chemise/slate/sidebar.gif) repeat-x =
+0px 0px
+}
+#sidebar-alternate {
+	BACKGROUND: url(/-/includes/style/chemise/slate/sidebar.gif) repeat-x =
+0px 0px
+}
+#sidebar H3 {
+	BACKGROUND: url(/-/includes/style/chemise/slate/sidebar-h3.gif) #1a2125 =
+repeat-x left bottom; COLOR: #536d79; BORDER-TOP-COLOR: #0d1114
+}
+#sidebar-alternate H3 {
+	BACKGROUND: url(/-/includes/style/chemise/slate/sidebar-h3.gif) #1a2125 =
+repeat-x left bottom; COLOR: #536d79; BORDER-TOP-COLOR: #0d1114
+}
+.editable {
+	BORDER-LEFT-COLOR: #66f; BORDER-BOTTOM-COLOR: #66f; BORDER-TOP-COLOR: =
+#66f; BORDER-RIGHT-COLOR: #66f
+}
+#footer {
+	BACKGROUND: url(/-/includes/style/chemise/slate/h1.gif) #7b95a1 =
+repeat-x left bottom; BORDER-BOTTOM-COLOR: #7597a5; COLOR: #fff; =
+BORDER-TOP-COLOR: #91a7af
+}
+</STYLE>
+<!-- Hack to avoid flash of unstyled content in IE -->
+<SCRIPT> </SCRIPT>
+
+<META content=3D"MSHTML 6.00.6000.16674" name=3DGENERATOR></HEAD>
+<BODY id=3Dtwocolumn-left>
+<DIV id=3Dcontainer>
+<DIV class=3Dwrapper>
+<DIV id=3Dheader>
+<DIV class=3Dwrapper>
+<H1 id=3Dpage-title>
+<DIV id=3Dg_title>Simulador TankCoders </DIV></H1>
+<DIV style=3D"CLEAR: both"></DIV>
+<P class=3Ddescription>
+<DIV id=3Dg_description>
+<P>Simulador de batalhas de tanque de guerra com intelig=C3=AAncia =
+baseada em agentes=20
+AgentSpeak(L).&nbsp;</P></DIV>
+<P></P>
+<DIV style=3D"CLEAR: both"></DIV></DIV></DIV><!-- /wrapper --><!-- =
+/header -->
+<DIV id=3Dmain-content>
+<DIV class=3Dwrapper>
+<DIV class=3Dcontent-item>
+<DIV id=3Dg_body>
+<H4><FONT style=3D"FONT-WEIGHT: normal" size=3D4>O que =C3=A9 =
+TankCoders?</FONT><FONT=20
+size=3D4><SPAN style=3D"FONT-WEIGHT: normal"></SPAN></FONT><BR></H4>
+<P>=C3=89 um simulador de batalhas de tanque de guerra onde o principal =
+objetivo =C3=A9=20
+desenvolver times de agentes intelig=C3=AAntes escritos na linguagem =
+AgentSpeak(L) do=20
+interpretador Jason. Cada agente controla um tanque de guerra na batalha =
+e cabe=20
+a ele ter completa autonomia para se locomover e batalhar no =
+cen=C3=A1rio.</P>
+<H4><FONT size=3D4><SPAN style=3D"FONT-WEIGHT: normal">Quem deve usar o=20
+TankCoders?</SPAN></FONT> </H4>
+<P>Baseado no foco deste simulador, que =C3=A9 de desenvolver times de =
+agentes=20
+intelig=C3=AAntes utilizando o <A=20
+href=3D"http://jason.sourceforge.net/JasonWebSite/Jason%20Home.php">Jason=
+</A>, o=20
+p=C3=BAblico alvo s=C3=A3o os estudantes de Intelig=C3=AAncia =
+Artificial, mais especificamente=20
+da =C3=A1rea de Sistemas Multi-Agentes, que visam colocar em =
+pr=C3=A1tica os conceitos de=20
+coopera=C3=A7=C3=A3o e coordena=C3=A7=C3=A3o. A vantagem de se utilizar =
+esta ferramenta =C3=A9 que o=20
+estudante n=C3=A3o precisa desenvolver o ambiente onde os agentes =
+percebem e atuam,=20
+basta forcar-se na intelig=C3=AAncia dos mesmos.</P>
+<P>Esse simulador tamb=C3=A9m pode ser utilizado como um jogo, onde os =
+tanques s=C3=A3o=20
+controlados atrav=C3=A9s de teclado e mouse. Neste caso qualquer pessoa =
+pode utilizar=20
+e se divertir :).</P>
+<H2>Como o projeto foi concebido?</H2>
+<P>Este projeto foi concebido como trabalho de conclus=C3=A3o (TCC) do =
+curso de=20
+bacharel em Ci=C3=AAncias da Computa=C3=A7=C3=A3o da Universidade =
+Regional de Blumenau (FURB)=20
+em 2008-1.</P>
+<P>A inspira=C3=A7=C3=A3o para este projeto surgiu em meados de 2006 =
+quando tive o=20
+primeiro contato com a ferramenta <A=20
+href=3D"http://robocode.sourceforge.net/">Robocode</A>. Apesar de ser =
+uma =C3=B3tima=20
+ferramenta para testar conceitos de IA, notei v=C3=A1rias =
+limita=C3=A7=C3=B5es e baseado nelas=20
+propus melhorias para tornar o ambiente mais atrativo e real=C3=ADstico. =
+
+</P></DIV></DIV>
+<DIV style=3D"CLEAR: both"></DIV></DIV></DIV><!-- /wrapper --><!-- =
+/main-content -->
+<DIV id=3Dsidebar>
+<DIV class=3Dwrapper>
+<DIV class=3Dlinks>
+<DIV class=3Dwrapper>
+<DIV id=3Dg_sidebar>
+<H3>Links importantes<BR></H3>
+<UL>
+  <LI><A =
+href=3D"http://www.assembla.com/wiki/show/tankcoders">Espa=C3=A7o =
+Assembla</A>=20
+
+  <LI><A =
+href=3D"http://www.inf.furb.br/~gfronza/tankcoders/doc/index.html">P=C3=A1=
+gina=20
+  T=C3=A9cnica (EN)</A>
+  <LI><A=20
+  =
+href=3D"http://www.inf.furb.br/~gfronza/tankcoders/tank-coders-bin-0.1.zi=
+p">Download</A>=20
+
+  <LI><A =
+href=3D"http://germanofronza.googlepages.com/home">Screenshots</A>
+  <LI><A=20
+  =
+href=3D"http://www.inf.furb.br/~gfronza/tankcoders/screencast.avi">Screen=
+cast</A>
+  <LI><A href=3D"http://gfronza.blogspot.com/">Meu =
+blog</A>&nbsp;</LI></UL>
+<H3>Contato</H3>
+<P>Germano Fronza,</P>
+<P>MSN: mano_rdm@hotmail.com</P>
+<P>GTalk: germano.inf@gmail.com</P></DIV></DIV>
+<DIV=20
+style=3D"CLEAR: both"></DIV></DIV><!-- /wrapper --><!-- /links =
+--></DIV></DIV><!-- /wrapper --><!-- /sidebar -->
+<DIV id=3Dfooter>
+<DIV class=3Dwrapper>
+<HR>
+
+<P>
+<DIV id=3Dg_footer>
+<P>Obrigado pela sua visita. Para mais informa=C3=A7=C3=B5es, por favor =
+entre em=20
+contato.</P></DIV>
+<P></P>
+<DIV=20
+style=3D"CLEAR: both"></DIV></DIV></DIV><!-- /wrapper --><!-- /footer =
+--></DIV></DIV><!-- /wrapper --><!-- /container -->
+<DIV id=3DextraDiv1><SPAN></SPAN></DIV>
+<DIV id=3DextraDiv2><SPAN></SPAN></DIV>
+<DIV id=3DextraDiv3><SPAN></SPAN></DIV>
+<DIV id=3DextraDiv4><SPAN></SPAN></DIV>
+<DIV id=3DextraDiv5><SPAN></SPAN></DIV>
+<DIV id=3DextraDiv6><SPAN></SPAN></DIV></BODY></HTML>

@@ -1,0 +1,16 @@
+TankCoders is a tank battle simulator for pratice and test Jason based agents.
+First release: 2008-05-05.
+TankCoders is distributed under GPL (see file LICENSE).
+
+Requirements to run this application:
+ - Java SE 1.5 it's available at http://java.sun.com.
+ - Apache ant it's available at http://ant.apache.org/
+ - GPU Video card with OpenGL support.
+
+For more information, please read the documentation that can
+be found in doc/index.html.
+
+Thank you!
+
+--
+Germano Fronza

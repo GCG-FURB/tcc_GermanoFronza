@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>TankCoders Documentation</title>
+		<link type="text/css" href="../site.css" rel="stylesheet">
+	</head>
+	<body>
+		<h2 style="margin: 5px">TankCoders Documentation</h2>
+		
+		<div id="breadcrumbs">Last Published: 05/05/2008</div>
+		
+		<div id="menu">
+			<div id="topMenu"><b>Local documentation</b></div>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../getting-started.html">Getting Started</a></li>
+				<li><a href="../api/index.html">Javadoc</a></li>
+				<li><a href="../faq/index.html">FAQ</a></li>
+				<li><a href="../agent-percepts.html">Agent Perceptions</a></li>
+				<li><a href="../agent-beliefs.html">Agent Beliefs</a></li>
+				<li><a href="../agent-actions.html">Agent Actions</a></li>
+			</ul>
+			
+			<div id="logoGPLLicence">
+				<img src="../gplv3.png">
+			</div>
+		</div>
+		
+		<div id="bodyColumn">
+			<div id="contentBox">
+				<h3>Frequently Asked Questions</h3>
+					<ol>
+						<li><a href="#h-1">How can I get help?</a></li>
+						<li><a href="#h-2">How can I generate TankCoders JAR?</a></li>
+						<li><a href="#h-3">How can I run the Jason projects in examples folder?</a></li>
+						<li><a href="#h-4">How can my agents reflect the terrain topografy?</a></li>
+					</ol>
+				<h4>
+					<a name="h-1">1. How can I get help?</a>
+				</h4>
+					<p style="text-indent: 18px">The best way to get help is sending an e-mail to <a href="mailto:germano.inf@gmail.com">Germano Fronza</a>.</p>				
+					
+				<h4>
+					<a name="h-2">2. How can I generate TankCoders JAR?</a>
+				</h4>
+				
+				<ol>
+					<li>Open the comand line console and move to the TankCoders installation directory</li>
+					<li>Run command: $><b>ant jar</b></li>
+					<li>The generated JAR will be put in <b>lib</b> directory with the name tank-coders-{version}.{release}.jar</li>
+				</ol>
+				
+				<h4>
+					<a name="h-3">3. How can I run the Jason projects in examples folder?</a>
+				</h4>
+				
+				<ol>
+					<li>Open the comand line console and move to an example project folder in TankCoders installation directory</li>
+					<li>Run command: $><b>ant getRequirements</b></li>
+					<li>This ant task generates the folders lib and rsrc used by Jason Project to run TankCoders simulator</li>
+				</ol>
+				
+				<h4>
+					<a name="h-4">4. How can my agents reflect the terrain topografy?</a>
+				</h4>
+				
+				<ol>
+					<li>To do that, your first task is to create an Jason Internal Action</li>
+					<li>After do it, you can retrieve the Height Map Adapter instance with the line (static method):
+						<br/><p><b>Terrain.getHeightMapAdapter();</b> // you can call me, I'm static :)</p>
+					</li>
+					<li>With the Height Map Adapter instance you are able to retrieve all the relevant informations about the terrain topography</li>
+				</ol>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<div class="xright">© 2008 Germano Fronza </div>
+		</div>
+	</body>
+</html>

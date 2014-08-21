@@ -1,0 +1,25 @@
+/* 
+ * Baiano's Team
+ * Tribute to my buddy Roger Baiano from Campus IV - FURB
+ * ______________________________________________________
+ * This is a very simple example of a tanks team.
+*/
+MAS baianoTeam {
+
+	// always Centralised
+	infrastructure: Centralised
+
+	// always use this environment class. 
+	// -debug to see important stuff.
+	environment: br.furb.inf.tcc.tankcoders.jason.TankCodersEnvironment("-debug")
+
+	// always use this agentArchClass
+	agents:
+       boss agentArchClass br.furb.inf.tcc.tankcoders.jason.TankAgArch;
+	   slave agentArchClass br.furb.inf.tcc.tankcoders.jason.TankAgArch;
+	   
+	// to find asl source into the folder: "src/asl"
+	aslSourcePath: "src/asl";
+}
+
+

@@ -1,0 +1,74 @@
+Assunto:	TCC - 2008-1: Germano Fronza
+Data de início:	quinta-feira, 9 de agosto de 2007
+Data de conclusão:	segunda-feira, 30 de junho de 2008
+
+Status:	Não iniciada
+% concluída:	0%
+
+Trabalho estimado:	0 horas
+Trabalho real:	0 horas
+
+Proprietário:	Dalton Solano dos Reis
+
+Categorias:	Aulas - FURB
+05/03/08		
+Fazer com que gere um JAR e execute fora do Eclipse.
+07-02-08		
+Extensão .pd (Mars.pd)
+Plugin Eclipse, projeto, infrastructure: Centralised, Jade, SACI
+30/10/07		
+	- ter sempre uma tarefa curta e bem definida que envolva teória e prática
+	- usar sempre o SVN (LCI)
+	- procurar ao máximo documentar o código já na sua construção (JavaDoc)
+	=> poderia iniciar pela construção dos agentes__________________
+	Ter um agente BDI e Reativo (para comparar) usando um socket externo, não usar o controle de mundo do Jason, o mundo ser controlado pela nossa aplicação gráfica virtual e distribuída.
+
+===========================================
+
+2007-II ______________Germano Fronza [gfronza@inf.furb.br]
+Título provisório: ____
+
+Aluno do BCC que pretende fazer algo gráfico e JASON. Vai fazer o TCC 1 agora e o TCC 2 em 2008-I. Pretende continuar o estudo num mestrado, e acho a idéia de trabalhar para publicar um artigo interessante.
+A idéia é fazer um sistema distribuído na Web, um Ambiente Virtual Distribuído (AVD), onde tenha um servidor e vários clientes em Java. Disse que ia usar Java + JOGL junto com uma engine "jMonkeyEngine (JME)". Como cenário pretende fazer algo parecido com a "RobCop". Seria um cenário de batalha usando canhões. Basicamente seria dividido em 3 partes:
+	- Definição e estruturação do sistema AVD
+	   	Aconselhei olhar o TCC do Vandeir e tentar usar algo semelhante. Mostrei a preocupação de ser centralizado ou distribuído (escolheu centralizado). Falamos sobre as técnicas de Dead Reckoning, Heartbeats. Assim ele teria rotinas gráficas tanto no servidor como nos clientes que seriam sincronizadas.
+	- Ambiente gráfico: 
+		Usar Java + JOGL junto com uma engine "jMonkeyEngine (JME)". Acho que depois usar estes "aplicativos" seria definir como vai modelar o cenário, usando importação de arquivos do tipo WaveFront (obj), com um grafo de cena na modelagem.
+		Disse que a engine JME não usa JOGL.
+	- Módulo de raciocínio: vai usar o Jason, poderia só usar o Agente em si, mais ou menos o que irei usar no RAS. Assim só teríamos um ambiente, o ambiente gráfico. Poderia pensar em usar sockets para deixar "modular" qual o tipo de raciocínio usar. Já fez um trabalho em disciplina que usava o Jason. Pedir para ver (me enviar).
+
+		Pedi para ele ler/usar o TCC do Vandeir.
+
+Fiz também uma lista de atividades para começares a trabalhar.
+
+------------------------
+	Etapas:
+		- pretende desenvolver aonde: SO / IDE?
+
+		- conhecer trabalhos sobre AVD (Dalton Reis):
+			Acadêmico(a): Vandeir Eduardo 
+			Título: PROTÓTIPO DE UM AMBIENTE VIRTUAL DISTRIBUÍDO MULTIUSUÁRIO  
+			Material em: http://www.inf.furb.br/gcg/DIS-Java3D/ 
+
+			Acadêmico(a): Edison Weise 
+			Título: PROTÓTIPO DE UM MUNDO VIRTUAL DISTRIBUÍDO UTILIZANDO DIS-JAVA-VRML
+
+			Acadêmico(a): Jacyr Jefferson Popenda 
+			Título: PROTÓTIPO DE UM AMBIENTE VIRTUAL DISTRIBUÍDO UTILIZANDO A PLATAFORMA DE DESENVOLVIMENTO DIVE
+
+			Acadêmico(a): Leonardo Willrich 
+			Título: PROTÓTIPO DE UM AMBIENTE VIRTUAL DISTRIBUÍDO MULTIUSUÁRIO  
+
+		- conhecer trabalhos sobre BDI (Jomi Hübner):
+
+		- conhecer trabalhos sobre Jogos:
+		- conhecer trabalhos sobre Robocop:
+		- conhecer trabalhos sobre engine "jMonkeyEngine (JME):
+
+------------------------
+	Propostas similares:
+
+------------------------
+	Dificuldades:
+
+

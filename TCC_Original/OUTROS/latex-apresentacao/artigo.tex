@@ -1,0 +1,480 @@
+%
+% Apresentacao do Trabalho de Conclusão de Curso
+% - Germano Fronza
+% - Discliplina de TCC 2
+% - Ciências da Computação da FURB - 2008/1
+% 
+% Utilizados os arquivos "jomislides.cls", "demo.tex", "demo.bbl"
+% os quais estao em <http://www.inf.furb.br/~jomi/ia/seminario/demoSeminario.zip>
+% como referencia para producao desta apresentacao.
+%
+% Agradecimentos ao meu amigo Eduardo Coelho pelo auxílio com esse fonte latex
+% e também ao professor Jomi F. Hübner por criar e disponibilizar os estilos destes
+
+\documentclass[landscape,pdftex]{jomislides}    
+
+\usepackage{wrapfig}
+
+\slidesmag{5} 
+\pagecolor{white} 
+
+
+%
+% Headers & Footers
+% =================
+%
+\SlideHeader{}
+            {}
+\SlideFooter{\theslidepartheading $\;$ --- $\;$ \theslideheading}
+            {\theslide}
+            
+%
+% Slides
+% ======
+%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Capa %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Simulador de um Ambiente Virtual Distribuído Multiusuário para Batalhas de Tanques 3D com Inteligência Baseada em Agentes BDI}
+    \subtitle{}
+
+\author{ \href{http://www.inf.furb.br/~gfronza} {Acadêmico: Germano Fronza}\\
+         \href{mailto:gfronza@inf.furb.br} {gfronza@inf.furb.br}
+}
+       
+\institution{\href{http://www.inf.furb.br/~dalton}{Orientador: Dalton Solano dos Reis}\\
+             \href{mailto:dalton@furb.br} {dalton@furb.br}
+}
+
+\date{julho de 2008}
+
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Roteiro da Apresentação %%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{Slide}{Roteiro da Apresentação}
+    \begin{enumerate}
+        \item \textbf{Introdução:} Contextualização e Objetivos
+        \item \textbf{Fundamentação Teórica}
+        \begin{enumerate}
+        		\item AVD, SMA, JME
+        		\item Trabalhos Correlatos
+        \end{enumerate}
+        \item \textbf{Desenvolvimento do Simulador}
+        \begin{enumerate}
+        	  \item Principais Requisitos
+		        \item Especificação
+		        \item Implementação
+		        \item Resultados e Discussão
+        \end{enumerate}
+        \item \textbf{Conclusão e Extensões}
+    \end{enumerate}
+\end{Slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%% Introdução %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{PartSlide}{Introdução}
+\end{PartSlide}
+
+\begin{Slide}{Contextualização}
+		\begin{itemize}
+		    \item Responsabilidade dos simuladores.
+		    \item Ambientes 3D e o aumento da imersão nos simuladores.
+		    \item Usuários remotos $\to$\ o surgimento dos AVDs.
+		    \item IA contribuindo para o aumento da realidade nos simuladores.
+		    \item Simulador provendo um ambiente atrativo para desenvolvimento e testes de agentes BDI.
+		\end{itemize}
+\end{Slide}
+
+\begin{Slide}{Objetivos do Trabalho}
+		\begin{itemize}
+		    \item Desenvolver um simulador 3D de um AVD para atuar em uma rede local. 
+		    \item Objetivos específicos:
+		    \begin{itemize}
+		    	\item Definir um cenário a ser utilizado no simulador (ambiente, objetos, percepções e comportamentos);
+		    	\item Utilizar a engine gráfica JMonkey Engine para construção do ambiente gráfico do AVD;
+		    	\item Permitir que os tanques sejam controlados por avatares ou tenham um comportamento autônomo.
+		    \end{itemize}
+		\end{itemize}
+\end{Slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%% Fundamentação Teórica %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{PartSlide}{Fundamentação Teórica}
+\end{PartSlide}
+
+\begin{Slide}{Ambiente Virtual Distribuído}
+    \begin{itemize}
+    		\item Primeiros AVDs desenvolvidos:
+    		\begin{itemize}
+    				\item Simulator Network (SIMNET);
+    				\item Naval Postgraduate School Network (NPSNET).
+    		\end{itemize}
+    		\item Resultados obtidos a partir desses projetos.
+    		\item Modelos gerais de comunicação:
+    		\begin{itemize}
+    				\item Centralizado;
+    				\item Distribuído.
+    		\end{itemize}
+    \end{itemize}
+    \newpage
+		\begin{itemize}
+		    \item Java Game Networking (JGN)
+		    \begin{itemize}
+		    		\item \textsl{Open-source}.
+		    		\item Maior \emph{abstração} na implementação do módulo de comunicação.
+		    		\item Mensagens definidas como \emph{classes Java}.
+		    		\item Faz uso dos protocolos TCP e UDP.
+		    		\item Suporta UDP \textsl{broadcasting}.
+		    		\item Falta de documentação $\to$\ ponto negativo.
+		    \end{itemize}
+		\end{itemize}
+\end{Slide}
+
+\begin{Slide}{Sistemas MultiAgentes (SMA)}
+		"Os \emph{sistemas multiagentes} são sistemas compostos por multiplos elementos computacionais interativos, conhecidos como \emph{agentes}." \footnotesize (WOOLDRIDGE, 2002)
+		\begin{center}
+        \vspace{2pt}
+        \hspace{-12pt}
+     		\includegraphics[width=6cm]{age_amb.png}
+    \end{center}
+    \begin{itemize}
+    		\item Autonomia, Pró-atividade, Reatividade e Habilidade social.
+    \end{itemize}
+    \newpage
+    Arquitetura BDI
+		\begin{itemize}
+				\item Atitudes mentais.
+				\item \textsl{Belief, Desire and Intentions} (BDI).
+		\end{itemize}
+		\begin{center}
+				\vspace{2pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm]{arq_bdi.png}
+		\end{center}
+		Linguagem AgenteSpeak(L) e o interpretador Jason
+		\begin{itemize}
+				\item Sintaxe abstrata.
+				\item Linguagem de lógica, semelhante ao Prolog.
+				\item Código de um agente AgentSpeak(L) é composto por um conjunto de crenças iniciais, metas e planos.
+		\end{itemize}
+		\begin{center}
+				\vspace{2pt}
+				\hspace{-12pt}
+				\includegraphics[width=7.5cm]{cod_age.png}
+		\end{center}
+\end{Slide}
+
+\begin{Slide}{JMonkey Engine (JME)}
+		\begin{itemize}
+				\item \textsl{Open-source}.
+				\item Escrita totalmente em Java delegando tarefas de renderização à biblioteca nativa OpenGL.
+				\item Baseada em Grafo de Cena.
+				\item Sem acoplamento com uma implementação especifica de OpenGL para Java (através de JNI)
+				\item Física usando o \textsl{framework} JME Physics.
+				\item Conceito de \textsl{Game States}.
+		\end{itemize}		
+		\begin{center}
+				\vspace{2pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm]{jme_overview.png}
+		\end{center}
+\end{Slide}
+
+\begin{Slide}{Trabalhos Correlatos}
+		\begin{itemize}
+				\item Robocode.
+				\item Sistema multiagentes utilizando a linguagem AgentSpeak(L) para criar estratégias de armadilha e cooperação em um jogo tipo PacMan.
+				\item Protótipo de um ambiente virtual distribuído multiusuário.
+		\end{itemize}
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%% Fundamentação Teórica %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{PartSlide}{Desenvolvimento do Simulador}
+\end{PartSlide}
+
+\begin{Slide}{Principais Requisitos}
+		 Funcionais:
+		 \begin{itemize}
+		     \item Permitir a escolha do mapa da batalha.
+		     \item Possibilitar a entrada de novos modelos de mapas.
+		     \item Disponibilizar os dois modelos de tanques de guerra.
+		     \item Fornecer um conjunto de ações, percepções e crenças para os agentes.
+		     \item Permitir que os tanques sejam controlados por usuários ou tenham um comportamento autônomo.
+		     \item Prover um AVD com arquitetura híbrida para LAN.
+		 \end{itemize}
+		 \newpage
+		 Não-Funcionais:
+		 \begin{itemize}
+		 		 \item Tratar no máximo seis tanques de guerra em cada time.
+				 \item Garantir que nenhum usuário se conecte ao servidor após o início da batalha.
+				 \item JavaSE 6.0, JMonkey Engine, JME Physics, JGN e Jason.
+		 \end{itemize}
+\end{Slide}
+
+\begin{Slide}{Especificação}
+		\emph{Arquitetura Híbrida}: Características de arquitetura centralizada combinadas com características de arquitetura distribuída.
+		\begin{itemize}
+				\item O Aplicativo Servidor;
+				\item O Aplicativo Cliente.
+		\end{itemize}
+		
+		\begin{center}
+				\vspace{2pt}
+				\hspace{-12pt}
+				\includegraphics[width=5.3cm]{arq_geral.png}
+		\end{center}
+		
+		\newpage
+		\textbf{O Aplicativo Servidor} \linebreak
+		\newline
+		Estados possíveis:
+		\begin{center}
+				\vspace{2pt}
+				\hspace{-12pt}
+				\includegraphics[width=5.5cm]{de_appServer.png}
+		\end{center}
+		\begin{center}
+				\vspace{-12pt}
+				\hspace{-12pt}
+				\includegraphics[width=8.6cm]{dc_server.png}
+		\end{center}
+		\textbf{O Aplicativo Cliente}
+		\begin{itemize}
+				\item Representação gráfica do estado do AVD.
+				\begin{itemize}
+						\item \textsl{Middleware} Java Game Networking (JGN).
+				\end{itemize}
+				\item Interação com o aplicativo servidor.
+				\begin{itemize}
+						\item \textsl{Engine} gráfica JMonkey Engine (JME).
+				\end{itemize}
+				\item Integração com o interpretador Jason.
+				\begin{itemize}
+						\item Interpretador Jason.
+				\end{itemize}
+		\end{itemize}
+		\newpage
+		\textbf{Representação gráfica do estado do AVD}
+		\begin{itemize}
+				\item \textsl{Game States} do simulador:
+				\begin{itemize}
+						\item \texttt{GameMenuState};
+						\item \texttt{InGameState}.
+				\end{itemize}
+				\item Somente um \textsl{game state} ativo no \texttt{GameStateManager}.
+		\end{itemize}
+		\begin{center}
+				\vspace{12pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm, height=7cm]{dc_client.png}
+		\end{center}
+		\begin{figure}
+				\centering
+				\includegraphics[width=9cm, height=7cm]{scene_graph_tankcoders.png}
+		\end{figure}
+		\textbf{Terreno}
+		\begin{itemize}
+				\item Criação através da classe \texttt{TerrainFactory}
+				\item Composto por uma malha de polígonos gerada a partir de um \emph{mapa de alturas}
+				\item Mistura de texturas para representar um terreno de areia
+				\item Possui um \emph{Quartel General (QG)} para cada time
+				\item Delimita o QG com bandeiras (\texttt{HeadquarterFlag})
+		\end{itemize}
+		\begin{center}
+				\vspace{12pt}
+				\hspace{-12pt}
+				\includegraphics[width=6.5cm, height=6.5cm]{dc_terrain.png}
+		\end{center}
+		\textbf{Tanques}
+		\begin{itemize}
+				\item Criação através da classe \texttt{TankFactory}
+				\item Pode ser integrado a um agente
+				\item Pode ser controlado por um usuário remoto
+				\item Pode ser controlado via teclado e mouse (\textsl{Actions})
+				\item Composição:
+				\begin{itemize}
+						\item Suspensões
+						\begin{itemize}
+								\item Rodas
+						\end{itemize}
+						\item Arma principal (Móvel ou Estática)
+						\item Metralhadora (Fixa na base da arma principal)
+						\item Chassi
+				\end{itemize}
+		\end{itemize}
+		\begin{center}
+				\includegraphics[width=6.5cm, height=7cm]{dc_tank.png}
+		\end{center}
+		\begin{center}
+				\vspace{12pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm]{dc_actions.png}
+		\end{center}
+		
+		\textbf{Interação com o aplicativo servidor}
+		\begin{itemize}
+				\item Utilizando o \textsl{middleware} JGN
+				\item Mensagens representadas por classes
+				\item Todas as mensagens, exceto as de sincronização, derivam de RealtimeMessage (protocolo UDP)
+				\item Mensagens classificadas de acordo com o \textsl{game state} em que ocorrem
+				\item Uso de UDP \textsl{broadcasting} para mensagens comuns a todos os jogadores
+		\end{itemize}
+
+		\begin{center}
+				\vspace{12pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm]{clas_msg_menu.png}
+		\end{center}
+		
+		\begin{center}
+				\vspace{12pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm]{dc_nve.png}
+		\end{center}
+		
+		\newpage
+		
+		\textbf{Integração com o interpretador Jason}
+		\begin{itemize}
+				\item Jason 1.1.1
+				\item Componentes do Jason personalizados:
+				\begin{itemize}
+						\item \texttt{AgArch}
+						\item \texttt{Environment}
+				\end{itemize}
+		\end{itemize}
+
+		\begin{center}
+				\vspace{12pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm]{dc_jason.png}
+		\end{center}
+\end{Slide}
+
+\begin{Slide}{Implementação}
+		\textbf{Técnicas e Ferramentas Utilizadas}
+		\begin{itemize}
+				\item IDE Eclipse 3.3 $\to$\ Java.
+				\item Blender 2.43 $\to$\ Modelos dos Tanques 3D.
+				\item Adobe Photoshop CS $\to$\ Texturas do terreno.
+				\item Assembla Space $\to$\ Gerenciamento do projeto.
+				\item Apache Ant $\to$\ Tarefas repetitivas.
+				\item Padrões de Projeto: \textsl{Singleton}, \textsl{Command}, \textsl{Factory Method} e \textsl{Transfer Object}.
+		\end{itemize}
+		\newpage
+		\textbf{Operacionalidade da Implementação}\linebreak
+		\linebreak
+		Passos:
+		\begin{itemize}
+				\item Abrir aplicativo servidor, configurar e iniciar a batalha.
+				\item Abrir um aplicativo cliente:
+				\begin{itemize}
+						\item Jogador \emph{Avatar} ou \emph{MAS}.
+				\end{itemize}
+				\item Conectar-se ao servidor criado.
+				\item Preparar os tanques.
+				\item Definir-se como \emph{Ready}.
+		\end{itemize}
+		
+		Servidor notifica inicio da batalha $\to$\ clientes carregam cenário (estado AVD local)
+		
+		\textbf{Jogador Avatar}
+		\begin{itemize}
+				\item Teclas:
+				\begin{itemize}
+						\item Movimentar Tanque: \textbf{W}, \textbf{S}, \textbf{A} e \textbf{D}.
+						\item Atirar Arma Principal: \textbf{Barra Espaço}.
+						\item Atirar Metralhadora: \textbf{Ctrl}.
+						\item Movimentar Arma principal: \textbf{Direita} e \textbf{Esquerda}.
+						\item Macaco hidráulico: \textbf{J}
+						\item Modo Wireframed: \textbf{O}
+				\end{itemize}
+		\end{itemize}
+		\newpage
+		\textbf{Jogador MAS}
+		\begin{itemize}
+				\item Teclas:
+				\begin{itemize}
+						\item Trocar foco da camera: \textbf{TAB}
+						\item Modo Wireframed: \textbf{O}
+				\end{itemize}
+		\end{itemize}
+\end{Slide}
+
+\begin{Slide}{Resultados e Discussão}
+		\begin{itemize}
+				\item \textsl{Middleware} JGN $\to$\ performance e abstração.
+				\item \textsl{Engine} JME $\to$\ Grafo de cena = performance, otimização e abstração.
+				\item Cenário 3D com bom nível de imersão:
+				\begin{itemize}
+					\item Gravidade, massa, colisão, suspensões e disparo de projéteis.
+				\end{itemize}
+				\item \textsl{Chase Camera} melhor visão para o jogador Avatar.
+				\item Jason 1.1.1 $\to$\ desempenho nas ações.
+				\item Abstração para o desenvolvedor AgentSpeak(L).
+				\item \emph{Orientação a Objetos} em aplicações gráficas.
+		\end{itemize}
+\end{Slide}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Conclusão %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{PartSlide}{Conclusão}
+\end{PartSlide}
+
+\begin{Slide}{Conclusão}
+		\begin{itemize}
+				\item Simulador \emph{TankCoders} e o estudo de POA.
+				\item \textsl{Middlewares} e \textsl{frameworks} utilizados:
+				\begin{itemize}
+						\item JGN: pouca documentação e exemplos;
+						\item Jason e plug-in Eclipse: Hübner, Bordini e Fronza;
+						\item AgentSpeak: agentes cognitivos de forma declarativa e elegante;
+						\item JME: Abstração e performance.
+				\end{itemize}
+		\end{itemize}
+\end{Slide}
+
+\begin{Slide}{Extensões}
+		\begin{itemize}
+				\item Desenvolver modelos 3D mais leves.
+				\item Audio no ambiente.
+				\item Efeitos de explosão.
+				\item Novos modelos de terreno.
+				\item Ações internas genéricas:
+				\begin{itemize}
+						\item \textsl{Pathfinding} por exemplo.
+				\end{itemize}
+				\item Notificação de obstáculos do terreno aos agentes.
+				\item Rodar sobre redes WAN (Internet).
+		\end{itemize}
+\end{Slide}
+
+\begin{Slide}{Estatísticas}
+		\begin{itemize}
+				\item Total de arquivos .java: 135
+				\item Total de linhas: 16478
+				\begin{itemize}
+						\item Linhas de código: 81,19 \%
+						\item Comentários: 2,18 \%
+				\end{itemize}
+		\end{itemize}
+\end{Slide}
+
+\begin{Slide}{}
+		\begin{flushright}
+   			"O único lugar onde o sucesso vem antes do\linebreak trabalho é no dicionário." \linebreak
+   			\textbf{Albert Einstein}
+		\end{flushright}
+\end{Slide}
+
+\begin{Slide}{Suspensão}
+		\begin{center}
+				\vspace{12pt}
+				\hspace{-12pt}
+				\includegraphics[width=8cm]{suspensao.png}
+		\end{center}
+\end{Slide}
+
+\end{document}

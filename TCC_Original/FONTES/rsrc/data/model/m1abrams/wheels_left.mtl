@@ -1,0 +1,90 @@
+# Blender3D MTL File: m1-abrams_parts2_roda1.blend
+# Material Count: 8
+newmtl color.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.683922 0.552157 0.031373
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_base_light.png
+
+
+newmtl rubber
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.122353 0.100392 0.006275
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_dark.png
+
+
+newmtl color
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.683922 0.552157 0.031373
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_base_light.png
+
+
+newmtl ruber
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.172549 0.166275 0.166275
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_gray.png
+
+
+newmtl Material_#105
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.172549 0.166275 0.166275
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_gray.png
+
+
+newmtl metal
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.125490 0.103529 0.009412
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_dark.png
+
+
+newmtl met
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.172549 0.166275 0.166275
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_dark_gray.png
+
+
+newmtl Material_#104
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.398431 0.398431 0.398431
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd abrams_dark_gray.png
+
+

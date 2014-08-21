@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Fronza;Germano;;;
+FN:Germano Fronza
+ORG:Fundação Universidade Regional de Blumenau;
+TITLE:TCC 2008-1
+EMAIL;type=INTERNET;type=WORK;type=pref:gfronza@furb.br
+EMAIL;type=INTERNET;type=WORK:germano.inf@gmail.com
+item1.ADR;type=WORK;type=pref:;;Código Pessoa\: 67524;Blumenau;SC;**;Brazil
+item1.X-ABADR:us
+NOTE:Business Street\: Código Pessoa\: 67524\nAnotações\: Aluno de TCC 1\ngfronza@inf.furb.br\n\nCategorias\: Aulas - FURB\nConta\: gfronza\nDatas especiais\: 0/0/00\nEndereço de email 2\: gfronza@furb.br\nParticular\: Falso\n
+CATEGORIES:_Arrumar_,TCC_2008-I
+X-ABUID:2657924A-F881-4ED0-8A34-D2B7113A6234\:ABPerson
+END:VCARD

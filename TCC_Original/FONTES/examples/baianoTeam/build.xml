@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." default="getRequirements" name="bainoTeam">
+	
+	<target name="getRequirements">
+		<mkdir dir="${basedir}/lib"/>
+		<mkdir dir="${basedir}/rsrc/data"/>
+		
+		<ant dir="../../" target="jar"/>
+		
+        <copy todir="${basedir}/lib">
+        	<fileset dir="../../lib"/>
+        </copy>
+		
+		<copy todir="${basedir}/rsrc/data">
+        	<fileset dir="../../bin/data"/>
+        </copy>
+    </target>
+</project>
